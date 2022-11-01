@@ -30,24 +30,24 @@ const Navigation = () => {
           <p className={styles["navigation__title"]}>room</p>
           <ul className={styles["navigation__list"]}>
             <li>
-              <a href="#" className={styles["navigation__link"]}>
+              <button href="#" className={styles["navigation__link"]}>
                 home
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#" className={styles["navigation__link"]}>
+              <button href="#" className={styles["navigation__link"]}>
                 shop
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#" className={styles["navigation__link"]}>
+              <button href="#" className={styles["navigation__link"]}>
                 about
-              </a>
+              </button>
             </li>
             <li>
-              <a href="#" className={styles["navigation__link"]}>
+              <button href="#" className={styles["navigation__link"]}>
                 contact
-              </a>
+              </button>
             </li>
           </ul>
         </nav>
@@ -65,24 +65,36 @@ const Navigation = () => {
               />
               <ul className={styles["navigation__list-mobile"]}>
                 <li>
-                  <a href="#" className={styles["navigation__link-mobile"]}>
+                  <button
+                    href="#"
+                    className={styles["navigation__link-mobile"]}
+                  >
                     home
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a href="" className={styles["navigation__link-mobile"]}>
+                  <button
+                    href="#"
+                    className={styles["navigation__link-mobile"]}
+                  >
                     shop
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a href="#" className={styles["navigation__link-mobile"]}>
+                  <button
+                    href="#"
+                    className={styles["navigation__link-mobile"]}
+                  >
                     about
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a href="#" className={styles["navigation__link-mobile"]}>
+                  <button
+                    href="#"
+                    className={styles["navigation__link-mobile"]}
+                  >
                     contact
-                  </a>
+                  </button>
                 </li>
               </ul>
             </>

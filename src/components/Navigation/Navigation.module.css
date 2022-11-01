@@ -60,9 +60,12 @@
   font-size: 1.8rem;
 }
 
-.navigation__link:link,
-.navigation__link:visited {
+.navigation__link {
   display: inline-block;
+  background-color: transparent;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border: none;
   text-decoration: none;
   color: var(--white);
   position: relative;
@@ -82,9 +85,12 @@
   animation: 0.2s fadeIn forwards;
 }
 
-.navigation__link-mobile:link,
-.navigation__link-mobile:visited {
+.navigation__link-mobile {
   display: inline-block;
+  background-color: transparent;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border: none;
   text-decoration: none;
   color: var(--black);
   position: relative;
