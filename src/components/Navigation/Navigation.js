@@ -6,7 +6,7 @@ import styles from "./Navigation.module.css";
 
 const Navigation = () => {
   const { width, height } = useCurrentWidth();
-  const [navStyle, setNavStyle] = useState();
+  const [navStyle, setNavStyle] = useState(styles.navigation);
   const [triggerNav, setTriggerNav] = useState(false);
 
   const triggerNavController = () => {
