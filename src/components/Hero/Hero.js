@@ -65,12 +65,12 @@ const Hero = () => {
           <p className={styles["hero__description-text"]}>
             {banner.description}
           </p>
-          <a href="#" className={styles["hero__link"]}>
+          <button href="#" className={styles["hero__link"]}>
             Shop now
             <div className={styles["hero__link-arrow"]}>
               <RightArrow />
             </div>
-          </a>
+          </button>
         </div>
         {width > 1100 ? (
           <div className={styles["hero__navigation"]}>

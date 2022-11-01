@@ -45,9 +45,11 @@
   margin-bottom: 2.5rem;
 }
 
-.hero__link:link,
-.hero__link:visited {
+.hero__link{
   display: inline-block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
   color: var(--black);
@@ -58,7 +60,6 @@
   align-items: center;
 }
 
-.hero__link:hover,
 .hero__link:hover {
   color: var(--dark-gray);
 }
